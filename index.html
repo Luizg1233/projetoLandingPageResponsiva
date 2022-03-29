@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Mountain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menuMobile">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu_btn">
+            <img src="./assets/btn4.png" alt="">
+        </div>
+    </header>
+
+    <main id="home">
+        <div class="container">
+            <div class="content">
+                <h1>Explore 15k</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Expedita exercitationem voluptatum autem corporis iusto 
+                    voluptatem voluptate velit amet, earum quas a, quo officia incidunt facere?</p>
+                <button>View Tours</button>
+            </div>
+        </div>
+    </main>
+
+    <section id="about">
+        <div class="container">
+            <h2>01</h2>
+            <p>mile views</p>
+            <h1>Become one with the mountain</h1>
+            <div class="call">
+                <div class="left">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, possimus 
+                    incidunt eaque perspiciatis soluta iusto nulla vel voluptatibus suscipit 
+                    ratione quo quia facilis veniam sequi?
+                </div>
+                <div class="right">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, possimus 
+                    incidunt eaque perspiciatis soluta iusto nulla vel voluptatibus suscipit 
+                    ratione quo quia facilis veniam sequi?
+                </div>
+            </div>
+            <img src="./assets/bg-2.png" alt="">
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <div class="left">
+                <h2>02</h2>
+                <p>upcoming hike</p>
+                <h1>Become one with mountain</h1>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laborum 
+                odit accusantium tenetur non dignissimos doloremque quisquam vero officiis 
+                ipsum et consectetur nulla consequuntur, nisi, repudiandae, corrupti harum dicta iusto.</span>
+            </div>
+            <div class="right">
+                <h3>August 2022</h3>
+                <div class="box">
+                    <div class="data">
+                        <span>AUG</span>
+                        <p>11</p>
+                    </div>
+                    <div class="info">
+                        <span>Journey to Brekenridge</span>
+                        <p>Aug 11 - Aug 16</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <span>AUG</span>
+                        <p>17</p>
+                    </div>
+                    <div class="info">
+                        <span>Experience Vail</span>
+                        <p>12:00pm - 4:00pm</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <span>AUG</span>
+                        <p>21</p>
+                    </div>
+                    <div class="info">
+                        <span>Under the stars in Aspen</span>
+                        <p>9:00pm - 12:30pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="center">
+                <h2>03</h2>
+                <p>adventure awaits</p>
+                <h1>Nature calls. Will you answer?</h1>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="./assets/canoa.png" alt="">
+                    <h3>Kayaking</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laboriosam similique animi illo totam odit doloremque!</p>
+                    <button>View Tours</button>
+                </div>
+                <div class="box">
+                    <img src="./assets/mountain.png" alt="">
+                    <h3>Free climbing</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laboriosam similique animi illo totam odit doloremque!</p>
+                    <button>View Tours</button>
+                </div>
+                <div class="box">
+                    <img src="./assets/bike.png" alt="">
+                    <h3>Mountain bike</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laboriosam similique animi illo totam odit doloremque!</p>
+                    <button>View Tours</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Copyright 2017-2022 <a href="#"> FRONT </a> right reserved</span>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".menu_btn").click(function(){
+                $(".menuMobile").slideToggle("slow")
+            })
+        })
+    </script>
+</body>
+</html>
